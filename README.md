@@ -5,3 +5,5 @@ WL_RUS_selected: https://raw.githubusercontent.com/nboltp01/vpn_test/refs/heads/
 
 как подключится к ним сначала заходим в play market или app store и ищим Happ, v2rayTun, Hiddify.
 копируем ссылку любую из списка и вставляем готово
+
+сайт: https://nboltp01.github.io/vpn_confingi/
