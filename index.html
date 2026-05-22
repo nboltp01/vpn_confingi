@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Впн конфинги для белых списков</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(145deg, #f5f7fc 0%, #eef2f8 100%);
+            font-family: system-ui, 'Segoe UI', 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1.5rem;
+        }
+
+        /* Главная карточка */
+        .card {
+            max-width: 750px;
+            width: 100%;
+            background: rgba(255,255,255,0.96);
+            backdrop-filter: blur(0px);
+            border-radius: 2.5rem;
+            box-shadow: 0 25px 45px -12px rgba(0,0,0,0.25), 0 4px 12px rgba(0,0,0,0.05);
+            overflow: hidden;
+            transition: all 0.2s ease;
+            border: 1px solid rgba(255,255,255,0.5);
+        }
+
+        /* область заголовка — динамический контент */
+        .hero {
+            padding: 2.5rem 2rem 1.5rem 2rem;
+            background: white;
+            border-bottom: 1px solid #e9edf2;
+        }
+
+        .site-title {
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #1a2a3f, #2c3e66);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            line-height: 1.2;
+            word-break: break-word;
+        }
+
+        /* декоративная линия после заголовка */
+        .title-accent {
+            margin-top: 0.85rem;
+            width: 70px;
+            height: 4px;
+            background: #3b82f6;
+            border-radius: 4px;
+        }
+
+        /* секция ссылок */
+        .links-section {
+            padding: 1.8rem 2rem 2.5rem 2rem;
+        }
+
+        .links-headline {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #4b5563;
+            letter-spacing: 0.3px;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .links-headline::before {
+            content: "🔗";
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        /* сетка ссылок — адаптивная */
+        .links-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        /* стиль каждой ссылки — крупная, комфортная кнопка */
+        .custom-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #ffffff;
+            padding: 1rem 1.4rem;
+            border-radius: 1.6rem;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: all 0.25s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+            color: #0f172a;
+        }
+
+        /* левая часть: иконка + текст */
+        .link-content {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .link-icon {
+            font-size: 1.5rem;
+            width: 32px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .link-text {
+            font-size: 1.05rem;
+            letter-spacing: -0.2px;
+            font-weight: 500;
+            word-break: break-word;
+        }
+
+        /* правая стрелочка */
+        .link-arrow {
+            font-size: 1.3rem;
+            color: #94a3b8;
+            transition: transform 0.2s ease, color 0.2s;
+        }
+
+        /* hover эффекты */
+        .custom-link:hover {
+            background: #f8fafc;
+            border-color: #cbd5e1;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 20px -12px rgba(0,0,0,0.15);
+        }
+
+        .custom-link:hover .link-arrow {
+            transform: translateX(5px);
+            color: #3b82f6;
+        }
+
+        .custom-link:hover .link-icon {
+            transform: scale(1.05);
+        }
+
+        /* небольшая пометка о кастомизации */
+        .footer-note {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            font-size: 0.75rem;
+            text-align: center;
+            color: #8ca3ba;
+            border-top: 1px dashed #e2edf7;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background: #eef3ff;
+            padding: 0.2rem 0.7rem;
+            border-radius: 40px;
+            font-family: monospace;
+            font-size: 0.7rem;
+            color: #1e40af;
+        }
+
+        @media (max-width: 550px) {
+            .card {
+                border-radius: 1.8rem;
+            }
+            .hero {
+                padding: 1.8rem 1.5rem 1rem 1.5rem;
+            }
+            .site-title {
+                font-size: 2rem;
+            }
+            .links-section {
+                padding: 1.5rem 1.5rem 2rem 1.5rem;
+            }
+            .custom-link {
+                padding: 0.8rem 1.2rem;
+            }
+            .link-text {
+                font-size: 0.95rem;
+            }
+            .link-icon {
+                font-size: 1.3rem;
+                width: 28px;
+            }
+        }
+
+        /* для очень длинных слов */
+        .link-text {
+            overflow-wrap: break-word;
+            max-width: 70vw;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="hero">
+        <!-- ⬇️⬇️⬇️ НАЗВАНИЕ САЙТА (ВПИШИ СВОЁ) ⬇️⬇️⬇️ -->
+        <h1 class="site-title" id="dynamicSiteTitle">Впн конфиги и ссылки на них</h1>
+        <!-- ⬆️⬆️⬆️ ИЗМЕНИ ТЕКСТ ВЫШЕ В КАВЫЧКАХ НА ЛЮБОЙ ⬆️⬆️⬆️ -->
+        <div class="title-accent"></div>
+    </div>
+
+    <div class="links-section">
+        <div class="links-heading">
+            <div class="links-headline">Полезные ссылки</div>
+        </div>
+        <div class="links-grid" id="linksContainer">
+            <!-- Ссылки будут динамически подставлены из JavaScript (или можно сразу прописать, но для наглядности сделаем через data-структуру, чтобы было максимально просто править в одном месте) -->
+        </div>
+        <div class="footer-note">
+            <span>✏️ Редактируй заголовок и ссылки прямо в коде</span>
+            <span class="badge">index.html</span>
+        </div>
+    </div>
+</div>
+
+<script>
+    // ============================================================
+    // 🔧  НАСТРОЙКА САЙТА: НАЗВАНИЕ И 4 ССЫЛКИ (ПРАВЬ ЗДЕСЬ)
+    // ============================================================
+    
+    // 1️⃣ ★★★ НАЗВАНИЕ САЙТА ★★★
+    // Просто измени строку в кавычках на любую, которую хочешь.
+    const SITE_TITLE = "Впн конфиги и ссылки на них";   // <--- ВПИШИ СВОЁ НАЗВАНИЕ САЙТА
+    
+    
+    // 2️⃣ ★★★ ЧЕТЫРЕ ССЫЛКИ (URL + ТЕКСТ) ★★★
+    // Каждая ссылка содержит:
+    //   - url:      полный путь (http://, https:// или относительный)
+    //   - text:     отображаемый текст ссылки
+    //   - emoji:    иконка/эмодзи (можно оставить или поменять)
+    //
+    // 💡 Совет: для пустого emoji оставь "" — тогда будет стоять стандартный 🔗.
+    
+    const LINKS_LIST = [
+        {
+            url: "https://raw.githubusercontent.com/nboltp01/vpn_test/refs/heads/main/vpn-configs-WHITE.txt",
+            text: "1 конфинг",
+            emoji: "🔍"
+        },
+        {
+            url: "https://raw.githubusercontent.com/nboltp01/vpn_test/refs/heads/main/Ghost%20VPN.txt",
+            text: "2 конфино",
+            emoji: "🐙"
+        },
+        {
+            url: "https://raw.githubusercontent.com/nboltp01/vpn_test/refs/heads/main/WL_RUS_selected.txt",
+            text: "3 конфинг",
+            emoji: "👍"
+        },
+        {
+            url: "https://",
+            text: "null сылка введёт в никуда",
+            emoji: ""
+        }
+    ];
+    
+    // ============================================================
+    // ВНИМАНИЕ! Ниже код, который применяет настройки к странице.
+    // Ты можешь ничего не менять, просто правь объекты выше (SITE_TITLE и LINKS_LIST).
+    // ============================================================
+    
+    // 1. Устанавливаем заголовок сайта
+    const titleElement = document.getElementById('dynamicSiteTitle');
+    if (titleElement) {
+        titleElement.innerText = SITE_TITLE;
+        // Также меняем title вкладки браузера для удобства (опционально)
+        document.title = SITE_TITLE + " · настраиваемый сайт";
+    }
+    
+    // 2. Функция для отрисовки ссылок
+    function renderLinks() {
+        const container = document.getElementById('linksContainer');
+        if (!container) return;
+        
+        // Очищаем контейнер перед вставкой (чтобы не дублировать)
+        container.innerHTML = '';
+        
+        // Проверяем, что у нас есть хотя бы 4 ссылки (можно больше, но по заданию 4)
+        // Если в массиве меньше 4 — дополним стандартными плейсхолдерами, чтобы всегда было 4 элемента,
+        // но если пользователь задал ровно 4 или больше — отобразим первые 4 (или все, если хочет больше? 
+        // Задание: "4 ссылку которые я сам через код напишу" — значит нужно ровно 4 элемента.
+        // Поэтому берем первые 4 элемента, а если меньше — дополняем до 4 полезными напоминаниями.
+        let linksToRender = [...LINKS_LIST];
+        
+        if (linksToRender.length < 4) {
+            // Дополняем до 4-х ссылок заглушками, чтобы пользователь сразу видел структуру и мог заменить
+            const defaultExtra = [
+                { url: "#", text: "Пример ссылки 3 (измени)", emoji: "📌" },
+                { url: "#", text: "Пример ссылки 4 (напиши свою)", emoji: "⭐" }
+            ];
+            let needed = 4 - linksToRender.length;
+            for (let i = 0; i < needed; i++) {
+                if (i < defaultExtra.length) {
+                    linksToRender.push(defaultExtra[i]);
+                } else {
+                    linksToRender.push({ url: "#", text: `Новая ссылка ${i+1}`, emoji: "🔗" });
+                }
+            }
+        } else if (linksToRender.length > 4) {
+            // Если задано больше 4 ссылок — обрезаем до 4 (чтобы соответствовать "4 ссылке")
+            linksToRender = linksToRender.slice(0, 4);
+        }
+        
+        // Проходим по ровно 4 ссылкам и создаём DOM-элементы
+        linksToRender.forEach((link, index) => {
+            const linkUrl = link.url && link.url.trim() !== "" ? link.url : "#";
+            const linkText = link.text && link.text.trim() !== "" ? link.text : `Ссылка ${index+1}`;
+            // Эмодзи: если не указано или пустая строка — используем стандартный символ ссылки
+            let emojiIcon = link.emoji && link.emoji.trim() !== "" ? link.emoji : "🔗";
+            
+            // Создаём <a> элемент
+            const anchor = document.createElement('a');
+            anchor.className = 'custom-link';
+            anchor.href = linkUrl;
+            // Безопасность: если ссылка не начинается с http://, https://, ftp://, mailto:, tel:, и не является относительной, 
+            // но при этом не "#" — всё равно корректно откроется. Добавим атрибут target="_blank" для внешних ссылок,
+            // но если это якорь "#" — не форсируем новую вкладку (оставим как есть). Умное поведение.
+            if (linkUrl !== "#" && (linkUrl.startsWith('http://') || linkUrl.startsWith('https://') || linkUrl.startsWith('ftp://'))) {
+                anchor.target = "_blank";
+                anchor.rel = "noopener noreferrer";
+            } else if (linkUrl !== "#" && !linkUrl.startsWith('mailto:') && !linkUrl.startsWith('tel:')) {
+                // относительные ссылки или другие протоколы – открываем в этой же вкладке (но можно в той же)
+                // ничего не меняем, target по умолчанию _self
+            }
+            
+            // Внутренняя структура: левый блок (иконка + текст) и стрелочка
+            const linkContent = document.createElement('div');
+            linkContent.className = 'link-content';
+            
+            const iconSpan = document.createElement('span');
+            iconSpan.className = 'link-icon';
+            iconSpan.innerText = emojiIcon;
+            
+            const textSpan = document.createElement('span');
+            textSpan.className = 'link-text';
+            textSpan.innerText = linkText;
+            
+            linkContent.appendChild(iconSpan);
+            linkContent.appendChild(textSpan);
+            
+            const arrowSpan = document.createElement('span');
+            arrowSpan.className = 'link-arrow';
+            arrowSpan.innerHTML = '→'; // простая стрелка
+            
+            anchor.appendChild(linkContent);
+            anchor.appendChild(arrowSpan);
+            
+            container.appendChild(anchor);
+        });
+    }
+    
+    // Запускаем отрисовку ссылок
+    renderLinks();
+    
+    // (дополнительно) если пользователь захочет обновить параметры через консоль — сделаем функцию доступной глобально,
+    // но это необязательно, главное — простота правок в коде.
+    console.log('✅ Сайт готов! Измени название и ссылки в объектах SITE_TITLE и LINKS_LIST (внутри script).');
+</script>
+
+<!-- 
+    ========================================================
+    ИНСТРУКЦИЯ ПО РЕДАКТИРОВАНИЮ:
+    --------------------------------------------------------
+    1. Чтобы изменить ЗАГОЛОВОК сайта — найдите в коде (внутри тега <script>) 
+       строчку: const SITE_TITLE = "Мой уникальный сайт";
+       Замените текст в кавычках на любой свой.
+    
+    2. Чтобы изменить 4 ССЫЛКИ — найдите массив LINKS_LIST. 
+       В нём уже есть 4 готовых примера. 
+       Просто замените url, text и emoji на свои.
+       
+       Формат одной ссылки:
+       {
+           url: "https://твой-сайт.ru",
+           text: "Текст ссылки",
+           emoji: "🎯"   ← можно любой эмодзи или оставить "" (тогда будет 🔗)
+       }
+       
+       Важно: должно быть ровно 4 объекта в массиве LINKS_LIST.
+       Если укажешь больше 4 — автоматически отобразятся первые 4.
+       Если меньше 4 — дополним напоминаниями, но лучше пропиши 4 собственные.
+    
+    3. Сохраните файл (index.html) и откройте в браузере — всё работает.
+    ========================================================
+-->
+</body>
+</html>
