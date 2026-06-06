@@ -1,3 +1,15 @@
+#profile-title: nbVPN
+#announce: Привет тут впн да ттолько не такой хороший
+#profile-web-page-url: https://pay.cloudtips.ru/p/6f2a7544
+#support-url: https://t.me/AetrisVPN
+#profile-update-interval: 6
+#subscription-userinfo: upload=0; download=12884901888; total=536870912000; expire=0
+#profile-locked: true
+#profile-type: encrypted
+#profile-locked: true
+#hide-settings: 1
+vless://info@0.0.0.0:443?type=tcp&security=none#vpn confingi тут
+
 vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@160.153.0.108:2087?security=tls&sni=CiHsFuEf76.nExTvIsIoNaRy.oRg&type=grpc&alpn=h2#United States%20#13471%20/%20OutlineKeys.com
 vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@141.193.213.30:2053?mode=gun&security=tls&encryption=none&type=grpc&sni=CdCyRiRd73.gOzAlBaLaBiYa-bEbInAm.cOm#Germany%20#13472%20/%20OutlineKeys.com
 vless://6b437afc-62b3-40ba-9112-ee667a783c3d@104.21.80.1:2096#United States%20#13469%20/%20OutlineKeys.com
