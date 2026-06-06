@@ -1,6 +1,6 @@
 #profile-title: nbVPN
 #announce: Привет тут впн да ттолько не такой хороший
-#profile-web-page-url: https://pay.cloudtips.ru/p/6f2a7544
+#profile-web-page-url:
 #support-url: https://тут_ничего_нет.com
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=12; total=536870912000; expire=0
@@ -20,4 +20,6 @@ vless://d1aca49a-e5bc-48b2-870a-d590004099b0@185.16.110.44:2096?security=tls&sni
 vless://55520747-311e-4015-83ce-be46e2060ce3@141.145.205.115:8443?security=tls&sni=re.vs2024.us.kg&type=ws&path=%2F%3Fed&fp=chrome#France%20#14091%20/%20OutlineKeys.com
 vless://55520747-311e-4015-83ce-be46e2060ce3@45.67.215.174:443?security=tls&sni=re.vs2024.us.kg&type=ws&path=%2F%3Fed#Russia%20#13691%20/%20OutlineKeys.com
 vless://de6f1d99-acc6-4c6b-9820-f3a8922cc736@185.59.218.37:80?type=ws&host=hk1-tg-fxnodes.sfacg.uk&path=%2Ftg%40fxnodes#Russia%20#13717%20/%20OutlineKeys.com
-
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPWnN2VEl5YlVQMk1nTVNIcHJvNEFN@109.107.182.229:51544/?outline=1
+vless://9bb0b33d-d6aa-42f7-8ea3-ce08ddec76a9@193.233.23.196:26048?type=tcp&encryption=none&security=none#w5he8mkp
+ 
