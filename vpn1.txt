@@ -3,7 +3,7 @@
 #profile-web-page-url:
 #support-url: https://тут_ничего_нет.com
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=457700000000; total=5368709120; expire=0
+#subscription-userinfo: upload=0; download=20000000; total=5368709120; expire=0
 #profile-locked: true
 #profile-type: encrypted
 #profile-locked: true
