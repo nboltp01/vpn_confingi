@@ -1,9 +1,9 @@
 #profile-title: nbVPN
-#announce: Привет тут впн да ттолько не такой хороший
+#announce: Привет тут впн да только не такой хороший
 #profile-web-page-url: https://nboltp01.github.io/vpn_confingi/
 #support-url: https://t.me/nbVPN_cannal
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=20000000000; total=5368709120000; expire=0
+#subscription-userinfo: upload=0; download=20000000000; total=536870912000; expire=0
 #profile-locked: true
 #profile-type: encrypted
 #profile-locked: true
@@ -13,10 +13,8 @@ vless://info@0.0.0.0:443?type=tcp&security=none#Твоя подписка нав
 vless://55520747-311e-4015-83ce-be46e2060ce3@45.67.215.174:443?security=tls&sni=re.vs2024.us.kg&type=ws&path=%2F%3Fed#Russia%20#13691%20/%20OutlineKeys.com
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPWnN2VEl5YlVQMk1nTVNIcHJvNEFN@109.107.182.229:51544/?outline=1
 vless://9bb0b33d-d6aa-42f7-8ea3-ce08ddec76a9@193.233.23.196:26048?type=tcp&encryption=none&security=none#w5he8mkp
- ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkN3poMmxNclhOSDUrOCs4cEt6bHhpQ1U5Tk4wMjJpaCt1QXl4ajVkNHFvPQ@102.129.229.85:31700#🇹🇭 Таиланд%20@outlineOpenKey
 ss://YWVzLTI1Ni1nY206MzRmSXR5Wnl6Njl1SXJ4a0orY0xSMXBkY2x2RzYyOHB2OCtmelVOVElDMD0@57.131.28.246:2083#🇮🇹 Италия%20@outlineOpenKey
 trojan://iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf@64.176.65.85:443#🇵🇱 Польша%20@outlineOpenKey
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYdTdoNHlPNjlIN1FHX0MwQTl0WTdqUDF3TjBqU3pjOA@103.244.145.244:26190#🇷🇴 Румыния%20@outlineOpenKey
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZHlMK0txWDhoSU1uK1V5QUR3U0pPUG03MkEwQTgzVHNET0ZYQm42STJtQT0=@49.13.3.249:23997#🇩🇪 Германия%20@outlineOpenKey
 vless://1a135182-37b9-4b40-bb1b-34379d697ccb@panel.dibaux.ir:80/?type=ws&encryption=none&flow=&host=panel.dibaux.ir&path=%2Fstream#%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%92%A4%20United%20Kingdom%20%5Bproxy-348%5D
 ss://YWVzLTI1Ni1nY206YzFmZDBiMjktNmMxOC00MDQyLTg3YTItZjViZDc4NzhkYzBh@192.142.18.127:443#🇳🇱 Нидерланды%20@outlineOpenKey
@@ -24,4 +22,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYdTdoNHlPNjlIN1FHX0MwQTl0WTdqUDF3TjBqU3pjOA@
 ss://YWVzLTI1Ni1nY206MzRmSXR5Wnl6Njl1SXJ4a0orY0xSMXBkY2x2RzYyOHB2OCtmelVOVElDMD0@57.131.28.246:2083#🇮🇹 Италия%20@outlineOpenKey
 ss://YWVzLTI1Ni1nY206R1RaSTVBYmpOQWVXUUcwb1ZOcHR2V0pvZ0hOS2lpS0E@47.79.144.115:40003#🇯🇵 Япония%20@outlineOpenKey
 vless://7283d2d5-7b14-431b-9d1f-96f2dac4a97b@83.229.14.125:13569?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=business.vk.ru&pbk=Xl6notHrxamdPvx0cZGGPRQOT-PR1rkjryRazI9i1VI#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
-
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMbDZjWWZYTTVEelFiZHRNTWI3MkFfanFWbk5salUzeXFl@149.104.109.74:21273#🇺🇸 США%20@outlineOpenKey
+trojan://iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf@64.176.65.85:443#🇵🇱 Польша%20@outlineOpenKey
