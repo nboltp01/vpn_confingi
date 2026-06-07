@@ -1,7 +1,7 @@
 #profile-title: nbVPN
 #announce: Привет тут впн да ттолько не такой хороший
-#profile-web-page-url:
-#support-url: https://тут_ничего_нет.com
+#profile-web-page-url: https://nboltp01.github.io/vpn_confingi/
+#support-url: https://t.me/nbVPN_cannal
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=20000000000; total=5368709120000; expire=0
 #profile-locked: true
