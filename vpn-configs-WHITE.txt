@@ -3,6 +3,7 @@
 # Date/Time: 2026-05-17 / 15:25 (Moscow)
 # Количество: 9
 # For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
+#эта подписка умерла 🥹
 
 vless://25f1947f-63a8-2040-8f3b-b101eed550e7@87.239.107.130:443?encryption=none&type=ws&security=tls&path=%2Fupload%2Fsession&host=s1.ws.listwhite.cc&fp=chrome&sni=s1.ws.listwhite.cc#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%5B%2ACIDR%5D%20VK
 vless://25f1947f-63a8-2040-8f3b-b101eed550e7@w2ws.listwhite.cc:443?type=ws&headerType=none&security=tls&encryption=none&sni=w2ws.listwhite.cc&fp=chrome&path=%2Fupload%2Fsession&host=s2.ws.listwhite.cc&insecure=0#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%5B%2ACIDR%5D%20VK
