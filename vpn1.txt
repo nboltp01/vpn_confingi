@@ -24,4 +24,6 @@ trojan://iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf@64.176.65.85:443#🇵🇱 Польш
 ss://YWVzLTI1Ni1nY206YzFmZDBiMjktNmMxOC00MDQyLTg3YTItZjViZDc4NzhkYzBh@192.142.18.127:443#🇿🇦 Южноафриканская Республика%20@outlineOpenKey
 vless://cbc27e56-38a1-4b0d-bce3-f9e7dcb807a4@89.208.208.92:9443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=loadtest.dev.urent.ru&pbk=aVu6XB9_RKR1xLtusyQ1_YOWCs4Ofi9GEJd6oERNH2Q&sid=689def22fcb54e86#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%AC%F0%9F%87%A7%20%5B%2ACIDR%5D%20VK
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDYTRjeE10dEV6elJGU0xwejNJY0JG@109.107.182.229:51544#🇫🇮 Финляндия%20@outlineOpenKey
+vless://1da3b96e-55af-0012-9147-39e79074aaea@62.152.56.221:8443?encryption=none&security=reality&sni=sfera.x5.ru&fp=firefox&pbk=36F7ul7R68ih8TAKPfHnqEvw_23kWNgOXCrfQKK3MXQ&sid=3722621913893e97&type=grpc&serviceName=/api&mode=multi#🇷🇺 Россия 2 обход бс
+vless://1da3b96e-55af-0012-9147-39e79074aaea@62.152.56.226:8443?encryption=none&security=reality&sni=loadtest.dev.urent.ru&fp=firefox&pbk=36F7ul7R68ih8TAKPfHnqEvw_23kWNgOXCrfQKK3MXQ&sid=3722621913893e97&type=grpc&serviceName=/api&mode=multi#🇷🇺 Россия обход бс
 
