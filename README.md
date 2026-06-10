@@ -13,4 +13,6 @@ https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/test.txt
 как подключится к ним сначала заходим в play market или app store и ищим Happ, v2rayTun, Hiddify.
 копируем ссылку любую из списка и вставляем готово
 
+канал в телеграмме: https://t.me/nbVPN_cannal
+
 сайт: https://nboltp01.github.io/vpn_confingi/
