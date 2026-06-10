@@ -2,6 +2,7 @@
 белые списки (некоторые не работают из списков): https://raw.githubusercontent.com/nboltp01/vpn_test/refs/heads/main/vpn-configs-WHITE.txt
 ghost vpn: https://raw.githubusercontent.com/nboltp01/vpn_test/refs/heads/main/Ghost%20VPN.txt
 WL_RUS_selected: https://raw.githubusercontent.com/nboltp01/vpn_test/refs/heads/main/WL_RUS_selected.txt
+могут обойти белые списки: https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/obxoge_bc.txt
 
 nbVPN:
 https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/vpn1.txt
