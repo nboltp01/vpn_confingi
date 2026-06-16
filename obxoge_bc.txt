@@ -1,3 +1,4 @@
+# profile-title: обход белых списков для всех операторов
 #profile-update-interval: 1
 vless://fef41e97-400e-4db2-a638-dac1297b36bc@185.91.52.236:443?flow=xtls-rprx-vision&fp=firefox&pbk=kjTspDrisV8226wHoYmGlK3M3f5ti3J3SABdhRqAMCY&security=reality&sid=&sni=eh.vk.com&type=tcp#🇷🇺 🧠 Нейро — Lexa Vercel 448
 vless://f777818a-fa93-4096-8235-68e090c8714c@185.229.9.58:443?flow=xtls-rprx-vision&fp=firefox&pbk=kjTspDrisV8226wHoYmGlK3M3f5ti3J3SABdhRqAMCY&security=reality&sid=&sni=eh.vk.com&type=tcp#🇷🇺 🧠 Нейро — Lexa Vercel 449
