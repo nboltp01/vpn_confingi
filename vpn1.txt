@@ -12,4 +12,4 @@ vless://info@0.0.0.0:443?type=tcp&security=auto#Твоя подписка нав
 vless://info@0.0.0.0:443?type=tcp&security=aut#Подписка щас оффлайн
 vless://info@0.0.0.0:443?type=tcp&security=auto#есть пока-что один конфинг
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDYTRjeE10dEV6elJGU0xwejNJY0JG@109.107.182.229:51544#🇫🇮 Финляндия%20@outlineOpenKey
+vless://63247b43-e1f4-4e44-83c8-c8e4913e0ed3@151.101.116.191:443?mode=packet-up&path=%2F&security=tls&encryption=none&alpn=h3&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMaxConcurrentPosts%22%3A100.0%2C%22scMinPostsIntervalMs%22%3A30.0%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D&echfq=none&host=ov1.global.ssl.fastly.net&fp=chrome&allowinsecure=0&type=xhttp&sni=docs.fastly.com#%F0%9F%87%AB%F0%9F%87%AE+Telegram%3A+%40FlewFreeVPN
