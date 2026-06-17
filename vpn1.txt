@@ -3,13 +3,21 @@
 #profile-web-page-url: https://nboltp01.github.io/vpn_confingi/
 #support-url: https://
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=20000000000; total=536870000; expire=0
+#subscription-userinfo: upload=0; download=20000000000; total=536870912000; expire=0
 #profile-locked: true
 #profile-type: encrypted
 #profile-locked: true
 #hide-settings: 1
 vless://info@0.0.0.0:443?type=tcp&security=auto#Твоя подписка навсегда!
-vless://info@0.0.0.0:443?type=tcp&security=aut#Подписка щас оффлайн
-vless://info@0.0.0.0:443?type=tcp&security=auto#есть пока-что один конфинг
 
-vless://63247b43-e1f4-4e44-83c8-c8e4913e0ed3@151.101.116.191:443?mode=packet-up&path=%2F&security=tls&encryption=none&alpn=h3&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMaxConcurrentPosts%22%3A100.0%2C%22scMinPostsIntervalMs%22%3A30.0%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D&echfq=none&host=ov1.global.ssl.fastly.net&fp=chrome&allowinsecure=0&type=xhttp&sni=docs.fastly.com#%F0%9F%87%AB%F0%9F%87%AE+Telegram%3A+%40FlewFreeVPN
+ss://YWVzLTI1Ni1nY206MzRmSXR5Wnl6Njl1SXJ4a0orY0xSMXBkY2x2RzYyOHB2OCtmelVOVElDMD0@57.131.28.246:2083#🇮🇹 Италия%20@outlineOpenKey
+trojan://iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf@64.176.65.85:443#🇵🇱 Польша%20@outlineOpenKey
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZHlMK0txWDhoSU1uK1V5QUR3U0pPUG03MkEwQTgzVHNET0ZYQm42STJtQT0=@49.13.3.249:23997#🇩🇪 Германия%20@outlineOpenKey
+vless://1a135182-37b9-4b40-bb1b-34379d697ccb@panel.dibaux.ir:80/?type=ws&encryption=none&flow=&host=panel.dibaux.ir&path=%2Fstream#%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%92%A4%20United%20Kingdom%20%5Bproxy-348%5D
+ss://YWVzLTI1Ni1nY206YzFmZDBiMjktNmMxOC00MDQyLTg3YTItZjViZDc4NzhkYzBh@192.142.18.127:443#🇳🇱 Нидерланды%20@outlineOpenKey
+vless://7283d2d5-7b14-431b-9d1f-96f2dac4a97b@83.229.14.125:13569?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=business.vk.ru&pbk=Xl6notHrxamdPvx0cZGGPRQOT-PR1rkjryRazI9i1VI#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%F0%9F%8C%90%20%5B%2ACIDR%5D
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMbDZjWWZYTTVEelFiZHRNTWI3MkFfanFWbk5salUzeXFl@149.104.109.74:21273#🇺🇸 США%20@outlineOpenKey
+vless://723af53a-b131-3270-8ce0-13f8ecaaa322@s556.okgfw.top:443?encryption=none&type=tcp&headerType=&fp=&host=s556.okgfw.top&path=&flow=xtls-rprx-vision&security=tls&sni=u723828us556.okgfw.top&serviceName=&mode=&alpn=#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Staten%20Island%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://d7c33059-2f32-41d5-a53b-9bb730b5170f@91.186.216.62:443?path=%2F&security=tls&encryption=none&alpn=http/1.1&host=ov146.ochmaybrooooo.online&fp=chrome&allowinsecure=0&type=ws&sni=ov146.ochmaybrooooo.online#%F0%9F%87%B1%F0%9F%87%BA+%5BNL%5D+-+%D0%94%D0%BB%D1%8F+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8+%F0%9F%94%A5
+vless://d7c33059-2f32-41d5-a53b-9bb730b5170f@91.186.216.62:443?path=%2F&security=tls&encryption=none&alpn=http/1.1&host=polshaov.ochmaybrooooo.online&fp=chrome&allowinsecure=0&type=ws&sni=polshaov.ochmaybrooooo.online#%F0%9F%87%AE%F0%9F%87%A9+%5BPL%5D+-+%D0%94%D0%BB%D1%8F+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8+%F0%9F%94%A5
+
