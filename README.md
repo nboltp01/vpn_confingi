@@ -10,7 +10,7 @@ nbVPN:
 https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/vpn1.txt
 
 vpn2:
-https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/test.txt
+https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/bvk.txt
 
 как подключится к ним сначала заходим в play market или app store и ищим Happ, v2rayTun, Hiddify.
 копируем ссылку любую из списка и вставляем готово
