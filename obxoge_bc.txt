@@ -1,5 +1,6 @@
 #profile-title: обход белых списков для всех операторов
 #profile-update-interval: 1
+#support-url: https://t.me/Ask_a_CM/1038
 vless://72edcaa1-685e-4022-9576-273746529e1f@78.159.250.189:1111?allowInsecure=1&flow=xtls-rprx-vision&fp=chrome&pbk=YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA&security=reality&sid=&sni=api-maps.yandex.ru&type=tcp#🇷🇺 🧠 Нейро — Lexa Vercel S-1
 vless://72edcaa1-685e-4022-9576-273746529e1f@37.18.14.97:25567?allowInsecure=1&flow=xtls-rprx-vision&fp=qq&pbk=tsxzBG6xHNl1Nu8XPpd3hWk_zPGrpFrv2Z-difc3nGY&security=reality&sid=a5bd715847213387&sni=iv.kommersant.ru&type=tcp#🇷🇺 🧠 Нейро — Lexa Vercel S-2
 vless://72edcaa1-685e-4022-9576-273746529e1f@78.159.250.32:1111?allowInsecure=1&flow=xtls-rprx-vision&fp=chrome&pbk=YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA&security=reality&sid=&sni=api-maps.yandex.ru&type=tcp#🇷🇺 🧠 Нейро — Lexa Vercel S-3
