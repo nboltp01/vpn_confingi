@@ -8,7 +8,6 @@ WL_RUS_selected: https://raw.githubusercontent.com/nboltp01/vpn_test/refs/heads/
 
 nbVPN:
 https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/vpn1.txt
-(может поддержка прекращена)
 
 vpn2:
 https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/bvk.txt
