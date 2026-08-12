@@ -9,8 +9,6 @@ WL_RUS_selected: https://raw.githubusercontent.com/nboltp01/vpn_test/refs/heads/
 nbVPN:
 https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/vpn1.txt
 
-Дима VPN:
-https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/bvk.txt
 
 как подключится к ним сначала заходим в play market или app store и ищим Happ, v2rayTun, Hiddify.
 копируем ссылку любую из списка и вставляем готово
