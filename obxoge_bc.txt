@@ -1,4 +1,4 @@
-#profile-title: обход белых списков для всех операторов
+#profile-title: Нейро белые списки
 #announce: здрасте
 #profile-web-page-url: https://t.me/NeuroLexaVPN
 #profile-update-interval: 1
