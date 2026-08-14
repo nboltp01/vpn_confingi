@@ -7,6 +7,7 @@ WL_RUS_selected: https://raw.githubusercontent.com/nboltp01/vpn_test/refs/heads/
 
 nbVPN:
 https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/vpn1.txt
+(это подписка временно отключена)
 
 vpn с обходом не известно:
 https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/vpn2.txt
