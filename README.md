@@ -9,7 +9,7 @@ nbVPN:
 https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/vpn1.txt
 (это подписка временно отключена)
 
-vpn с обходом не известно:
+vpn с обходом ЧС/БС:
 https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/vpn2.txt
 
 как подключится к ним сначала заходим в play market или app store и ищим Happ, v2rayTun, Hiddify.
