@@ -2,3 +2,4 @@
 #announce: Закрыто
 #profile-web-page-url: https://t.me/NeuroLexaVPN
 #profile-update-interval: 1
+vless://info@0.0.0.0:443?type=tcp&security=auto#Подписка отключена
