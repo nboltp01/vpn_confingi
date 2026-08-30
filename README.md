@@ -4,6 +4,7 @@ WL_RUS_selected: https://raw.githubusercontent.com/nboltp01/vpn_test/refs/heads/
 (поддержка прекращена) 
 
 нейро обход БС: https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/obxoge_bc.txt
+(закрыто)
 
 nbVPN:
 https://raw.githubusercontent.com/nboltp01/vpn_confingi/refs/heads/main/vpn1.txt
