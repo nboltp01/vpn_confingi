@@ -1,3 +1,7 @@
+# закрытие
+эти конфинги больше не будут обновляться
+пока что я ухожу от этого репозитория vpn configi
+
 # vpn конфинги
 белые списки (некоторые не работают из списков):
 WL_RUS_selected: https://raw.githubusercontent.com/nboltp01/vpn_test/refs/heads/main/WL_RUS_selected.txt
